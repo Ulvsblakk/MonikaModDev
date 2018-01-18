@@ -84,7 +84,8 @@ gPats = [
   [r'I need (.*)',
   [  "Why do you need %1?",
     "Would it really help you to get %1?",
-    "Are you sure you need %1?"]],
+    "Are you sure you need %1?",
+  "Would you like me to get you %1?"]], #Added one new response. 
 
   [r'Why don\'?t you ([^\?]*)\??',
   [  "Do you really think I don't %1?",
@@ -95,7 +96,8 @@ gPats = [
   [  "Do you think you should be able to %1?",
     "If you could %1, what would you do?",
     "I don't know -- why can't you %1?",
-    "Have you really tried?"]],
+    "Have you really tried",
+  "I believe you can %1, if you try hard enough."]], #Added one new response
 
   [r'I can\'?t (.*)',
   [  "How do you know you can't %1?",
@@ -246,14 +248,16 @@ gPats = [
     "What was your relationship with your mother like?",
     "How do you feel about your mother?",
     "How does this relate to your feelings today?",
-    "Good family relations are important."]],
+    "Good family relations are important.",
+  "Have you talked with your mother today?"]], #Added one new response
 
   [r'(.*) father(.*)',
   [  "Tell me more about your father.",
     "How did your father make you feel?",
     "How do you feel about your father?",
     "Does your relationship with your father relate to your feelings today?",
-    "Do you have trouble showing affection with your family?"]],
+    "Do you have trouble showing affection with your family?",
+  "Have you talked with your father today?"]], #Added one new response
 
   [r'(.*) child(.*)',
   [  "Did you have close friends as a child?",
